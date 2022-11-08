@@ -26,6 +26,15 @@ class View {
       colCount++
     }
 
+    document.querySelector("ul").style.display = 'flex';
+    document.querySelector("ul").style.width = '900px';
+    document.querySelector("ul").style.flexWrap = 'wrap';
+    document.querySelector("li").style.width = "300";
+    document.querySelector("li").style.border = "4px";
+    document.querySelector("li").style.backgroundColor = "grey";
+    document.querySelector("li").style.backgroundColor = "grey";
+
+
     // board.childNodes.forEach(li => {
       
     // });
